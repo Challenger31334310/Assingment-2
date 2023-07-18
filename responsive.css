@@ -24,8 +24,7 @@
         text-align: center;
     }
 
-    .nav-style>p,
-    img {}
+   
 
     .nav-img-one {}
 
@@ -73,8 +72,104 @@
     .goat{
         padding-bottom: 0.7rem;
     }
+  /* third section */
+  .third-section{
+    flex-direction: column;
+    width: fit-content;
+    
+
+  }
+  .third-img{
+  max-width: 100%;
+  padding-right: 8rem;
+  }
+  .ganner,.pur,.unplash{
+    text-align: center;
+  }
+  .third-section-btn{
+    margin-right: 15rem;
+  }
+
+  /*forth section */
+  .omg{
+    width: 35rem;
+    height: 30rem;
+}
+.forth-first-img{
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 1rem;
+gap: 2rem;
+padding-left:4rem ;
 
 }
+.image-bap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 1rem;
+}
+.mine{
+  padding-left: 2rem;
+}
+
+.kine{
+    padding-right: 3.5rem;
+}
+.pine{
+    margin-right: 4rem;
+}
+.forth-info{
+    margin-bottom: 1rem;
+}
+.forth{
+    width: fit-content;
+
+    
+}
+.forth-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+
+}
+
+.forth-section-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -156,4 +251,78 @@
     .goat{
         padding-bottom: 0.7rem;
     }
+    /* third section */
+  .third-section{
+    flex-direction: column;
+    width: fit-content;
+    
+
+  }
+  .third-img{
+  max-width: 100%;
+  padding-right: 8rem;
+  }
+  .ganner,.pur,.unplash{
+    text-align: center;
+  }
+  .third-section-btn{
+    margin-right: 15rem;
+  }
+  /*forth section */
+  .omg{
+    width: 35rem;
+    height: 30rem;
+}
+.forth-first-img{
+display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 1rem;
+gap: 2rem;
+padding-left:4rem ;
+
+}
+.image-bap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 1rem;
+}
+.mine{
+  padding-left: 2rem;
+}
+
+.kine{
+    padding-right: 3.5rem;
+}
+.pine{
+    margin-right: 4rem;
+}
+.forth-info{
+    margin-bottom: 1rem;
+}
+.forth{
+    width: fit-content;
+
+    
+}
+.forth-p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+
+
+}
+
+.forth-section-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.mon{
+    padding-left: 4rem;
+}
 }

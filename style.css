@@ -172,3 +172,154 @@ img {
 .second-section-info {
     padding-bottom: 1rem;
 }
+/*third section */
+.third-img-style{
+    width: 35rem;
+    height: 25rem;
+}
+.third-section{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.third-section-info{
+    text-align: right;
+}
+.ganner{
+text-align: right;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 1rem;
+}
+.digital{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; /* 166.667% */
+}
+.third-section-btn{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 3rem;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+padding: 1rem;
+margin-top: 1rem;
+}
+.pur{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 2.8125rem; /* 187.5% */
+}
+.unplash{
+    color: #534C64;
+font-family: Work Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.8125rem;
+}
+.third-section-info{
+    margin-right: 3rem;
+}
+
+/* forth section */
+.omg{
+    width: 14rem;
+    height: 14rem;
+}
+.forth-first-img{
+ flex-direction: column;
+ text-align: center;
+ 
+
+}
+.image-bap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 1rem;
+}
+.mine{
+  padding-left: 8rem;
+}
+
+.kine{
+    padding-right: 3.5rem;
+}
+.pine{
+    margin-right: 9.5rem;
+}
+.forth-info{
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+.forth-p{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.fun{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 3rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.forth-second{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.875rem; /* 166.667% */
+}
+.forth{
+    padding-top: 3rem;
+}
+
+/*five section */
+.hero-img{
+    width: 20rem;
+    height: 20rem;
+}
+.alternate{
+    width: 10rem;
+    height: 10rem;
+}
+.fifth-img{
+  position: relative;
+}
+.child {
+    position:absolute;
+    top :13rem;
+    right:53rem;
+}
