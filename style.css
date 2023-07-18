@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+
+
+.nav-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   max-width: auto;
+height: 8.125rem;
+flex-shrink: 0;
+background: #FFF;!important
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+li{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+.nav-head{
+    display: flex;
+    
+}
+.nav{
+    display: flex;
+    margin-top: 1.4rem;
+}
+.nav-style{
+    display: flex;
+   height: auto;
+flex-shrink: 0;
+border-radius: 0.5rem;
+background: rgba(11, 2, 35, 0.10);
+margin-bottom: 1rem;
+padding: 0.8rem;
+}
+.nav-style>p,img{
+    margin-right: 1rem;
+}
+.nav-img-one{
+    width: 5.37756rem;
+height: 2.5rem;
+flex-shrink: 0;
+margin-top: 0.5rem;
+}
+.nav-para{
+    text-align: center;
+font-family: Work Sans;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav>li{
+    margin-top: 0.9rem;
+}
