@@ -1,72 +1,174 @@
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: 'Hind Siliguri', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
-.nav-section{
+.nav-section {
     display: flex;
     align-items: center;
     justify-content: space-around;
-   max-width: auto;
-height: 8.125rem;
-flex-shrink: 0;
-background: #FFF;!important
-box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    max-width: auto;
+    height: 8.125rem;
+    flex-shrink: 0;
+    background: #FFF;
+    !important box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-li{
+
+li {
     list-style: none;
     margin-right: 1.5rem;
 }
-.nav-head{
+
+.nav-head {
     display: flex;
-    
+
 }
-.nav{
+
+.nav {
     display: flex;
     margin-top: 1.4rem;
 }
-.nav-style{
+
+.nav-style {
     display: flex;
-   height: auto;
-flex-shrink: 0;
-border-radius: 0.5rem;
-background: rgba(11, 2, 35, 0.10);
-margin-bottom: 1rem;
-padding: 0.8rem;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: rgba(11, 2, 35, 0.10);
+    margin-bottom: 1rem;
+    padding: 0.8rem;
 }
-.nav-style>p,img{
+
+.nav-style>p,
+img {
     margin-right: 1rem;
 }
-.nav-img-one{
+
+.nav-img-one {
     width: 5.37756rem;
-height: 2.5rem;
-flex-shrink: 0;
-margin-top: 0.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    margin-top: 0.5rem;
 }
-.nav-para{
+
+.nav-para {
     text-align: center;
-font-family: Work Sans;
-font-size: 2.8125rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Work Sans;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
-span{
+
+.span-one {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.nav>li{
+
+.nav>li {
     margin-top: 0.9rem;
+}
+
+/* second section*/
+.second-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: auto;
+    background: #FFF;
+}
+
+.second-section-img-style {
+    width: 42.4375rem;
+    height: 27.875rem;
+    flex-shrink: 0;
+}
+
+.play {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.goat {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 5.9375rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.click,
+.no,
+.of {
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.download {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    padding: 1rem;
+    border: none;
+    gap: 2rem;
+}
+
+.go {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 3rem;
+    background: #4EC5F7;
+    padding: 1rem;
+    border: none;
+    margin-left: 1rem;
+}
+
+.second-section-button {
+    padding-top: 1.5rem;
+}
+
+.second-section-info {
+    padding-bottom: 1rem;
 }
