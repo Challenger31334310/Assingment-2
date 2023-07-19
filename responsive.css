@@ -24,10 +24,6 @@
         text-align: center;
     }
 
-   
-
-    .nav-img-one {}
-
     .nav-para {
         text-align: center;
         font-family: Work Sans;
@@ -144,7 +140,18 @@ padding-left:4rem ;
     justify-content: center;
     flex-direction:column;
 }
+  /*five section */
+  .fifth-section{
+  flex-direction: column;
+min-height: 40vh;
+padding-left: 23rem;
 
+
+    
+  }
+.fifth-section-info{
+   padding-bottom: 2rem;
+}
 }
 
 
@@ -325,4 +332,15 @@ padding-left:4rem ;
 .mon{
     padding-left: 4rem;
 }
-}
+/*five section */
+.fifth-section{
+    flex-direction: column;
+width: auto;
+  min-height: 40vh;
+      padding-left: 23rem;
+
+    }
+  .fifth-section-info{
+     padding-bottom: 2rem;
+  }
+  }
