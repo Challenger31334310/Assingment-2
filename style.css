@@ -394,4 +394,40 @@ padding-top: 1rem;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
+/*last */
+.last-section{
+    background-color: #0B0223; ;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.class{
+    color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 2rem;
+padding-right: 5rem;
+}
+.last-two{
+    display: flex;
+}
+.bangla{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 2.8125rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.last-image{
+padding-left: 5rem;
+}
+
 

@@ -180,9 +180,24 @@
     .grid{
   display: grid;
   padding-left: 1rem;   
-            
+          
     }
+    /* last section*/
+    .last-section{
+        background-color: #0B0223; ;
+        min-height: 40vh;
+        flex-direction: column;
+         min-width: fit-content;
 }
+.last-two{
+    padding-bottom: 2rem;
+}
+.last-img{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+}
+
 
 
 
@@ -403,4 +418,18 @@
         padding-left: 1rem;   
                   
           }
+            /* last section*/
+    .last-section{
+        background-color: #0B0223; ;
+        min-height: 40vh;
+        flex-direction: column;
+         min-width: fit-content;
+}
+.last-two{
+    padding-bottom: 2rem;
+}
+.last-img{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
 }
